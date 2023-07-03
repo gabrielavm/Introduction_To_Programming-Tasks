@@ -1,1 +1,15 @@
+It is given a string that contains opening "(" and closing ")" brackets. We will call it "closed" if after
+each opening bracket follows a closing bracket somewhere in the string and "correct" if each closed sub-string
+has an equal number of opening and closing brackets. Write a program that reads from the keyboard a string with
+no more than 255 characters and outputs in the console "correct" if it is closed and correct and "incorrect" - otherwise.
+_________________________________________________________________________________________________________________________
+Example 1 :
+_________________________________________________________________________________________________________________________
+input: ab(oisjdoi399)lk((lklk))()l
+output: correct
 
+_________________________________________________________________________________________________________________________
+Example 2:
+_________________________________________________________________________________________________________________________
+input: (siio(lk)((9)
+output: incorrect
