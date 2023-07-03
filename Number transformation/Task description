@@ -1,3 +1,9 @@
 A program that reads from the standard input a natural number N∈[1,106].
 Then, on the basis of N, the program forms a new number M, in the record of which each digit of N is squared.
 The program prints on the console screen the number M, read backwards and then increased by 1.
+____________________________________________________________________________________________________________
+Example:
+____________________________________________________________________________________________________________
+input: 25431
+output: 1961525
+explanation: When you lift each digit in 25431 squared, you get 4251691.
