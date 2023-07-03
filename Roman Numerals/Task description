@@ -1,1 +1,8 @@
+A program that reads from the keyboard a number in the range [1, 2000] and displays in the console
+the same number, but written in Roman numerals.
 
+__________________________________________________________________________________________________
+Example:                                                                                          
+__________________________________________________________________________________________________
+input: 888
+output: DCCCLXXXVIII
