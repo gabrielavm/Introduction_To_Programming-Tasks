@@ -1,1 +1,15 @@
+An array of integers that are in the interval [1, 9999] is given.
+Let us call the number that is formed by the digits of its sequentially arranged elements a projection of the array.
+So, for example, the projection of the array [7, 2, 3, 51, 23] is the number 7235123.
+Write a function F, which takes as parameters an array of integers in the interval [1, 9999], 
+length of the array N ε [1,15] and rearranges its elements so that the projection of the array has the largest possible value.
+Implement a function main() that reads from the keyboard an integer M, an array of M integers in the interval [1, 9999]
+and displays on the screen the result of the execution of the function F on it.
+In case of invalid input data, the program will display -1 on the screen.
+_____________________________________________________________________________________________________________________________
+Example:
+_____________________________________________________________________________________________________________________________
+input: 4
+       415  10  7  76
 
+output: 7  76  415  10
