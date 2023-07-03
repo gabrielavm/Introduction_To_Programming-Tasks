@@ -1,1 +1,15 @@
+A program that, by keyboard input integer N∈[2,9], prints on the standard output a geometric figure 
+such as that shown in the example below. The shape should be centered in the console screen.
+Explanation: We consider the screen size of the console to be 25 lines of 80 characters per line.
+___________________________________________________________________________________________________
+Example:
+___________________________________________________________________________________________________
+input: 4
 
+output: 1          1
+        12        21
+        123      321
+        1234----4321
+        123      321 
+        12        21
+        1          1
