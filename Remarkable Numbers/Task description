@@ -1,1 +1,14 @@
-
+Let's call "remarkable" those primes that consist only of different digits.
+Write a program that finds and displays the nearest number to N at the standard output.
+If there are two remarkable numbers that are equidistant from N, then deduce the smaller of the two.
+Note that 13, 5419, and 102345697 are remarkable numbers.
+Also, 1234 is not remarkable because it is not a prime number, and 131 is a prime number,
+but it is not remarkable because it has repeating digits.
+___________________________________________________________________________________________________
+Example:
+___________________________________________________________________________________________________
+input: 100
+output: 97
+explanation: The closest prime number to 100 is 101, but it is not remarkable, as the number 1 repeats.
+             The next two closest to 100 primes are 97 and 103. Both are remarkable and are located at an equal
+             distance of 3 out of 100. The smaller of the two numbers is displayed.
