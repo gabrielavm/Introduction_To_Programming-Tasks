@@ -10,7 +10,7 @@ int greatestCommonDivisor(int number1, int number2)
     }
     else
     {
-        return GreatestCommonDivisor(number2 % number1, number1);
+        return greatestCommonDivisor(number2 % number1, number1);
     }
 }
 
@@ -88,7 +88,7 @@ int main()
         {
             cout << "-1";
         }
-        else if ((litersOfWater % GreatestCommonDivisor(firstBasin, secondBasin)) != 0)
+        else if ((litersOfWater % greatestCommonDivisor(firstBasin, secondBasin)) != 0)
         {
             cout << "-1";
         }
