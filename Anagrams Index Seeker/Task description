@@ -1,1 +1,11 @@
+A program that sequentially reads two character strings S and W from the keyboard 
+(each with no more than 255 characters) and prints on the screen the initial indexes 
+of all substrings of S, which are anagrams of W.
+In case there are no anagrams of W in S, to display a message "no anagrams".
+___________________________________________________________________________________
+Example:
+___________________________________________________________________________________
+input: isopenpoerty
+       ope
 
+output: 2, 6
