@@ -1,1 +1,12 @@
+A function, which takes as a parameter a string S, with a length of no more than 1024 characters
+and a symbol C. The function to encrypt S, as for this purpose, C has the role of a key and each character
+from S is encrypted by the bitwise exclusion operation or by the symbol C. Write a function main(),
+which reads from the standard input a symbol (key) and a character string. array of strings.
+The program prints on the standard output the strings encrypted with the function thus written, according to the supplied key.
+______________________________________________________________________________________________________________________________
+Example:
+______________________________________________________________________________________________________________________________
+input: !
+       HelloWorld!
 
+output: iDMMNvNSME
