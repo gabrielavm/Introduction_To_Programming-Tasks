@@ -1,1 +1,18 @@
+A program that, according to the introduced flight schedule, answers the question of how small is the smallest
+possible number of aircraft sites that need to be provided at the airport for a given day. 
+The program must accept as input the number N of flights for the day, followed by two rows, which represent respectively
+the take-off and landing times of the aircraft of the respective flights, with N landing hours indicated on the first row,
+and N hours of take-off on the second. The program should display on the console screen the minimum number of sites that
+must be at the airport, as well as the beginning and end of the busiest period of the day.
+_________________________________________________________________________________________________________________________
+Example:
+_________________________________________________________________________________________________________________________
+input: 6
+       0900 0940 0950 1100 1500 1800
+       0910 1200 1120 1130 1900 2000
+
+output: 3
+        1100-1120
+
+explanation: During this period, there will be three simultaneously landed aircraft.
 
